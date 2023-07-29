@@ -30,6 +30,13 @@ body {
 }
 
 /*----HEADER----*/
+.header-menu {
+    width: 1440px;
+    height: 72px;
+    flex-shrink: 0;
+    border-bottom: 1px solid var(--cornflower, #E7E9FC);
+background: var(--white, #FFF);   
+}
 .header-logo {
     color: #4d5ae5;
     font-family: Raleway, sans-serif;
@@ -38,7 +45,11 @@ body {
     font-weight: 800;
     line-height: 1.17; 
     letter-spacing: 0.03em;
-    text-transform: uppercase;   
+    text-transform: uppercase;
+    display: inline-flex;
+height: 24px;
+align-items: center;
+flex-shrink: 0;   
 }
 
 .header-logo-two {
@@ -52,6 +63,10 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+display: inline-flex;
+align-items: flex-start;
+gap: 40px;
+
 }
 .header-link:is(:hover, :focus) {
 color: #404bbf;
