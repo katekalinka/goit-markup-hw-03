@@ -35,7 +35,8 @@ body {
     height: 72px;
     flex-shrink: 0;
     border-bottom: 1px solid var(--cornflower, #E7E9FC);
-background: var(--white, #FFF);   
+background: var(--white, #FFF);  
+align-items: center; 
 }
 .header-logo {
     color: #4d5ae5;
