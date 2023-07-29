@@ -67,7 +67,7 @@ letter-spacing: 0.02em;
 display: inline-flex;
 align-items: flex-start;
 gap: 40px;
-
+align-items: center; 
 }
 .header-link:is(:hover, :focus) {
 color: #404bbf;
